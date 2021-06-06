@@ -22,14 +22,14 @@ layout = [
   [sg.Text('Lotes produzidos por mês',size=(25, 2)), sg.InputText()],
   [sg.Text('Custo de embalagem por unidade',size=(25, 1)), sg.InputText()],
   [sg.Text('Custo de embalagem por lote',size=(25, 1)), sg.InputText()],
-  [sg.OK(), sg.Cancel(button_text="Cancelar")],
+  [sg.OK(button_text="Calcular")],
   [sg.Output(size=(80,3))],
 ]
 
 window = sg.Window('Derivator',layout, icon="./images/icon.ico")
 while True:             
     event, values = window.read()
-    if event in (sg.WIN_CLOSED, 'Cancelar'):
+    if event in (sg.WIN_CLOSED, 'Fechar'):
       break
     valores = []
     for i in values:
