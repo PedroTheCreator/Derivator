@@ -43,8 +43,8 @@ while True:
       x = float(valores[7])
       Eu = float(valores[8])
       Eg = float(valores[9])
-      Custo_variavel = p*g*x**2 + Eu*g*x + Eg*x + custo_fixo
-      Custo_marginal = 2*(p*g*x) + Eu*g + Eg
+      Custo_variavel = p*g*x**2 + Eu*g*x + Eg*g + custo_fixo
+      Custo_marginal = 2*(p*g*x) + Eu*g 
       print("Custo total: R${}\nCusto Marginal: R${}".format(Custo_variavel, Custo_marginal))
       #print("Custo fixo = {}".format(custo_fixo))
     except ValueError:
