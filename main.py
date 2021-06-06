@@ -45,7 +45,7 @@ while True:
       Eg = float(valores[9])
       Custo_variavel = p*g*x**2 + Eu*g*x + Eg*x + custo_fixo
       Custo_marginal = 2*(p*g*x) + Eu*g + Eg
-      print("Custo total: {}\nCusto Marginal: {}".format(Custo_variavel, Custo_marginal))
+      print("Custo total: R${}\nCusto Marginal: R${}".format(Custo_variavel, Custo_marginal))
       #print("Custo fixo = {}".format(custo_fixo))
     except ValueError:
       sg.popup("Ops, você precisa inserir valores númericos em todos os campos.",title="Erro!")
