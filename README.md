@@ -8,6 +8,7 @@ Derivator é uma calculadora de custo marginal para fábricas.
 O projeto foi feito com as seguintes tecnologias:
 
 Python, especificamente para a construção gráfica, a biblioteca PySimpleGUI.
+A biblioteca PyInstaller foi utilizada para gerar o executável.
 ## :thinking: Como Contribuir?
 
 ```bash
