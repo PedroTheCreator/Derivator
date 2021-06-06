@@ -1,7 +1,7 @@
 # Derivator
 
-Projeto HACA38 Derivator - Laboratório de ideias 
-Derivator é uma calculadora de custo marginal para fábricas. 
+Projeto HACA38 Derivator - Laboratório de ideias
+#Derivator é uma calculadora de custo marginal para fábricas. 
 
 ### :rocket: Tecnologias Usadas
 
